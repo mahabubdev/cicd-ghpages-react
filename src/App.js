@@ -11,7 +11,7 @@ function App() {
         <small>@mahabubdev</small>
 
         {/* <Router basename="/cicd-ghpages-react"> */}
-        <Router>
+        <Router basename="/cicd-ghpages-react">
           <div style={{
             margin: '1rem 0',
             display: 'flex',
