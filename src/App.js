@@ -10,7 +10,7 @@ function App() {
         <h1 style={{ marginBottom: 16 }}>Create-React-App</h1>
         
 
-        <Router basename="https://mahabubdev.github.io/cicd-ghpages-react">
+        <Router>
           <div style={{
             margin: '1rem 0',
             display: 'flex',
