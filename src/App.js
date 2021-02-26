@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 function App() {
   return (
@@ -40,6 +41,9 @@ function App() {
 const pageOne = () => {
   return (
     <>
+      <Helmet>
+        <title>pg 1 | @mahabubdev | travisCi & gh-pages</title>
+      </Helmet>
       <h2>Page no. 1</h2>
     </>
   );
@@ -48,6 +52,9 @@ const pageOne = () => {
 const pageTwo = () => {
   return (
     <>
+      <Helmet>
+        <title>pg 2 | @mahabubdev | travisCi & gh-pages</title>
+      </Helmet>
       <h2>Page no. 2</h2>
     </>
   );
@@ -56,6 +63,9 @@ const pageTwo = () => {
 const notFound = () => {
   return (
     <>
+      <Helmet>
+        <title>Error 404! @mahabubdev</title>
+      </Helmet>
       <h2 style={ { color: 'red' } }>Page not found! 404 Error.</h2>
     </>
   );
