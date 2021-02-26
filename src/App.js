@@ -8,7 +8,6 @@ function App() {
       <div className="App-header">
         <img src={logo} className="App-logo" alt="react-logo" />
         <h1 style={{ marginBottom: 16 }}>Create-React-App</h1>
-        
 
         <Router basename="/cicd-ghpages-react">
           <div style={{
