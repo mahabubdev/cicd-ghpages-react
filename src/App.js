@@ -10,7 +10,7 @@ function App() {
         <h1 style={{ marginBottom: 16 }}>Create-React-App</h1>
         
 
-        <Router>
+        <Router basename="/cicd-ghpages-react">
           <div style={{
             margin: '1rem 0',
             display: 'flex',
